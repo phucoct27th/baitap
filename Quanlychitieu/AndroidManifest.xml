@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlychitieu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tieptheo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ThuChiMainActivity"
+            android:label="@string/title_activity_thu_chi_main" >
+        </activity>
+        <activity
+            android:name=".ThongKeMainActivity"
+            android:label="@string/title_activity_thong_ke_main" >
+        </activity>
+        <activity
+            android:name=".CaiDatMainActivity"
+            android:label="@string/title_activity_cai_dat_main" >
+        </activity>
+        <activity
+            android:name=".ThemgiaodichActivity"
+            android:label="Quản lý chi tiêu"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".ListGiaoDich_MainActivity"
+            android:label="@string/title_activity_list_giao_dich__main"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".ListGiaoDichMainActivity"
+            android:label="Quản lý chi tiêu" >
+        </activity>
+        <activity
+            android:name=".Tv2MainActivity"
+            android:label="@string/title_activity_tv2_main" >
+        </activity>
+        <activity
+            android:name=".ListMainActivity"
+            android:label="@string/title_activity_list_main" >
+        </activity>
+        <activity
+            android:name=".ThangMainActivity"
+            android:label="Quản lý chi tiêu"
+            android:parentActivityName=".ThongKeMainActivity" >
+        </activity>
+        <activity
+            android:name=".TuanMainActivity"
+            android:label="Quản lý chi tiêu" >
+        </activity>
+        <activity
+            android:name=".NamMainActivity"
+            android:label=" Quản lý chi tiêu" >
+        </activity>
+        <activity
+            android:name=".HomNayMainActivity"
+            android:label=" Quản lý chi tiêu"
+            android:parentActivityName=".ThongKeMainActivity" >
+        </activity>
+        <activity
+            android:name=".GioithieuActivity"
+            android:label="@string/title_activity_gioithieu"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".DangkyActivity"
+            android:label="@string/title_activity_dangky" >
+            
+        </activity>
+        <activity
+            android:name=".ChoActivity"
+            android:label="@string/title_activity_cho" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
